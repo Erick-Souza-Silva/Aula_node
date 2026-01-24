@@ -41,3 +41,29 @@ console.log(infinito); // Imprimindo o valor da variavel infinito, que e Infinit
 
 let nan = NaN; // Declarando uma variavel com valor NaN (Not a Number).
 console.log(nan); // Imprimindo o valor da variavel nan, que e NaN (Not a Number).
+
+let Pessoas = [
+    {
+    nome: "gabriel",
+    idade: 45,
+    cpf: "123.456.789-00"
+    },
+
+    {
+    nome: "Fabio",
+    idade: 85,
+    cpf: "987.654.321-00"
+    },
+    {
+    nome: "Ana",
+    idade: 25,
+    cpf: "456.789.123-00"
+    }
+]; /// Declarando uma variavel do tipo array (lista) de objetos, que esta armazenado mais de um objeto dentro de uma unica variavel (uma lista dentro de uma lista).
+console.log(Pessoas); // Imprimindo o valor da variavel Pessoas, que e uma lista de objetos.
+console.log(Pessoas[1]); // Acessando o segundo objeto da lista Pessoas.
+console.log(Pessoas[1].nome); // Acessando a propriedade nome do segundo objeto da lista Pessoas.
+console.log(Pessoas[2].cpf); // Acessando a propriedade cpf do terceiro objeto da lista Pessoas.
+console.log(Pessoas[0].idade); // Acessando a propriedade idade do primeiro objeto da lista Pessoas.
+
+
