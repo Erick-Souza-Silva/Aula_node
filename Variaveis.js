@@ -93,3 +93,6 @@ lista.forEach((numero) => {
 // Isso demonstra como combinar estruturas de repeticao e condicionais para processar e classificar elementos de um array com base em criterios especificos.
 // O forEach e um metodo de array que executa uma funcao para cada elemento do array. Neste caso, estamos usando uma funcao arrow para verificar se cada numero na lista e par ou impar e imprimir a mensagem correspondente no console.
 
+num = 20.145
+console.log(num.toFixed(2)); // Usando o metodo toFixed para formatar o numero "num" com duas casas decimais. O resultado e uma string representando o numero arredondado para duas casas decimais.
+// O metodo toFixed e usado para formatar numeros com um numero especifico de casas decimais. Neste caso, estamos formatando o numero 20.145 para ter duas casas decimais, resultando na string "20.15".
