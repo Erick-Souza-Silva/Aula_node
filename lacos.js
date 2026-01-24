@@ -12,3 +12,4 @@ for ( let i = numero.length -1; i >= 0; i--) // Loop for que percorre o array "n
 {
     console.log(numero[i]); // Acessando cada elemento do array "numero" em ordem reversa usando um loop for
 } // Isso demonstra como estruturas de repeticao podem ser usadas para iterar sobre arrays em diferentes ordens.
+
