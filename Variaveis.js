@@ -66,4 +66,20 @@ console.log(Pessoas[1].nome); // Acessando a propriedade nome do segundo objeto 
 console.log(Pessoas[2].cpf); // Acessando a propriedade cpf do terceiro objeto da lista Pessoas.
 console.log(Pessoas[0].idade); // Acessando a propriedade idade do primeiro objeto da lista Pessoas.
 
+//filtragem 
+Pessoas.forEach(pessoa => {
+    console.log("-----"); // Imprimindo uma linha de separacao no console para melhor visualizacao dos resultados.
+    console.log("Nome da pessoa na lista:"); // Imprimindo uma mensagem antes de cada nome.
+    console.log(pessoa.nome); // Usando o metodo forEach para percorrer cada objeto da lista Pessoas e imprimir o valor da propriedade nome de cada objeto.
 
+});// O forEach e um metodo de array que executa uma funcao para cada elemento do array. Neste caso, estamos usando uma funcao arrow para acessar a propriedade nome de cada objeto na lista Pessoas e imprimir seu valor no console.
+// Isso demonstra a declaracao e uso de diferentes tipos de variaveis em JavaScript, incluindo variaveis locais, arrays, objetos e listas de objetos.
+
+let lista = [1,2,3,4,5,6,7,8,9,10]; // Declaracao de um array chamado "lista" que armazena dez elementos numericos.
+
+let Pares = lista.filter(numero_par => numero_par % 2 == 0 ) // Filtrando os numeros pares da lista usando o metodo filter e uma funcao arrow, sendo armazenado na variavel "Pares", que cria um novo array contendo apenas os numeros que satisfazem a condicao de serem pares.
+console.log(Pares); // Usando o metodo filter para criar um novo array contendo apenas os numeros pares da lista original. O filtro verifica se o numero e divisivel por 2 (resto igual a 0) e inclui no novo array se a condicao for verdadeira.
+
+let impares = lista.filter(numeros_imapar => numeros_imapar % 2 != 0 ) // Filtrando os numeros impares da lista usando o metodo filter e uma funcao arrow, sendo armazenado na variavel "impares", que cria um novo array contendo apenas os numeros que satisfazem a condicao de serem impares.
+console.log(impares); // Usando o metodo filter para criar um novo array contendo apenas os numeros impares da lista original. O filtro verifica se o numero nao e divisivel por 2 (resto diferente de 0) e inclui no novo array se a condicao for verdadeira.
+// Isso demonstra como usar o metodo filter para criar sublistas baseadas em condicoes especificas, permitindo a selecao de elementos de um array original com base em criterios definidos.
