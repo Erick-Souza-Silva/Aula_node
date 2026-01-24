@@ -83,3 +83,13 @@ console.log(Pares); // Usando o metodo filter para criar um novo array contendo 
 let impares = lista.filter(numeros_imapar => numeros_imapar % 2 != 0 ) // Filtrando os numeros impares da lista usando o metodo filter e uma funcao arrow, sendo armazenado na variavel "impares", que cria um novo array contendo apenas os numeros que satisfazem a condicao de serem impares.
 console.log(impares); // Usando o metodo filter para criar um novo array contendo apenas os numeros impares da lista original. O filtro verifica se o numero nao e divisivel por 2 (resto diferente de 0) e inclui no novo array se a condicao for verdadeira.
 // Isso demonstra como usar o metodo filter para criar sublistas baseadas em condicoes especificas, permitindo a selecao de elementos de um array original com base em criterios definidos.
+
+lista.forEach((numero) => { 
+    if (numero % 2 == 0)
+         { console.log("O numero " + numero + " e par") }
+     else { console.log("O numero " + numero + " e impar"); }
+    }
+ ); // Usando o metodo forEach para percorrer cada elemento do array "lista" e verificar se o numero e par ou impar usando uma estrutura condicional if-else. Para cada numero, imprime uma mensagem indicando se e par ou impar.
+// Isso demonstra como combinar estruturas de repeticao e condicionais para processar e classificar elementos de um array com base em criterios especificos.
+// O forEach e um metodo de array que executa uma funcao para cada elemento do array. Neste caso, estamos usando uma funcao arrow para verificar se cada numero na lista e par ou impar e imprimir a mensagem correspondente no console.
+
