@@ -7,3 +7,5 @@ function main() {
 }
 
 main();
+
+//Execultar o server npx json-server posts.json
