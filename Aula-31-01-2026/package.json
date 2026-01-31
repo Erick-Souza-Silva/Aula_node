@@ -1,0 +1,20 @@
+{
+  "name": "aula_node",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Erick-Souza-Silva/Aula_node#readme",
+  "bugs": {
+    "url": "https://github.com/Erick-Souza-Silva/Aula_node/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erick-Souza-Silva/Aula_node.git"
+  },
+  "license": "ISC",
+  "author": "Erick",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
