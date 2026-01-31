@@ -36,16 +36,18 @@ function printPreson(preson){
 
 
 
-console.log("Imprimindo objeto preson:"); // Imprimindo mensagem no console
+
 printPreson(preson); // Chamando a função printPreson e passando o objeto preson como argumento
 
 
 function main(){
-    let retomandoPersoninfo = function(nomesDepessoas){
-        return nomesDepessoas;
-    }
-    let saindo = retomandoPersoninfo(nomes); // Chamando a função retomandoPersoninfo e passando nomes como argumento
-    console.log(saindo);
+    let info = {
+        nome: "Carla",
+        idade: "32",
+        altura: "1.68"
+     }
+        let dados = printPreson(info);
+        console.log(dados);
 }
+main(); // Chamando a função main para executar o código acima
 
-main();// Chamando a função main para executar o código acima
