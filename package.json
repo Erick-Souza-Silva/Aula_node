@@ -1,0 +1,13 @@
+{
+  "name": "aula_node-root",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "Aula-31-01-2026"
+  ],
+  "scripts": {
+    "install": "npm --prefix ./Aula-31-01-2026 install",
+    "start": "npm --prefix ./Aula-31-01-2026 run start",
+    "check": "npm --prefix ./Aula-31-01-2026 ls --depth=0"
+  }
+}
